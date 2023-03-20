@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Warp',sans-serif;
+    background-color: rgb(124, 217, 241);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid gray;
+}
+nav .logo {
+	width: 120px;
+	cursor: pointer;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 850px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://www.maxi-mag.fr/sites/default/files/media/article_collection/2023-01/La%20Grande%20Muraille%20de%20Chine%2C%20une%20%C5%93uvre%20titanesque');
+    background-size: cover;
+    color: antiquewhite;
+    padding: 300px;
+    
+}
+header h1{
+    font-family: 'Tilt Warp',sans-serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+}
+header button{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-family: 'Tilt Warp',sans-serif;
+    cursor: pointer;
+}
+main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+   
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: azure;
+    margin-top: 50px;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+}
+.main .content .card .right video{
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+    
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: black;
+    color: white;
+}
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer-sites,
+.footer-info h3,
+.footer-contact h3,
+.footer-reseau h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.footer-contact p{
+    padding: 5px 0 ;
+}
+
+
+
+.liste-sites,
+.liste-info,
+.liste-reseau{
+    list-style-type: none;
+}
+.liste-sites li{
+    padding: 2px 0;
+}
+.liste-sites a{
+    text-decoration: none;
+    color: white;
+}
+.liste-sites a:hover{
+    color: rgb(3,3,3);
+}
+
+.liste-reseau{
+    position: relative;
+    right: 10px;
+}
+.liste-reseau img{
+    width: 40px;
+    margin: 10px;
+
+}
+.liste-reseau a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.liste-info li{
+    padding: 2px 0;
+}
+.liste-info a{
+    text-decoration: none;
+    color:white;
+}
+.liste-info a:hover{
+    color: rgb(3,3,3);
+}

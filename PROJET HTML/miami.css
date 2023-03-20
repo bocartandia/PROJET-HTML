@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Warp',sans-serif;
+    background-color:white;
+    
+    
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid gray;
+    
+}
+nav .logo {
+	width: 100px;
+	height: 13vh;
+	cursor: pointer;
+}
+nav h1{
+    color: rgb(45, 42, 38);
+    font-family: 'Tilt Warp',sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 500px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://www.youramazingplaces.com/wp-content/uploads/2015/02/South-Beach-Miami.jpg");
+    background-size: cover;
+    color: white;
+    padding: 300px;
+}
+header h1{
+    font-family: 'Tilt Warp',sans-serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+}
+header button{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-family: 'Tilt Warp',sans-serif;
+    cursor: pointer;
+}
+main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+   
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+}
+
+
+.main .content .card.right{
+    flex: 0 0 70%;
+
+}
+.images{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    
+}
+.caroussel{
+    width: 600px;
+    overflow: auto;
+}
+.right{
+    flex: 0 0 40%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    margin-top: 50px;
+    
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: black;
+    color: white;
+}
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer-sites,
+.footer-info h3,
+.footer-contact h3,
+.footer-reseau h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.footer-contact p{
+    padding: 5px 0 ;
+}
+
+
+
+.liste-sites,
+.liste-info,
+.liste-reseau{
+    list-style-type: none;
+}
+.liste-sites li{
+    padding: 2px 0;
+}
+.liste-sites a{
+    text-decoration: none;
+    color: white;
+}
+.liste-sites a:hover{
+    color: rgb(3,3,3);
+}
+
+.liste-reseau{
+    position: relative;
+    right: 10px;
+}
+.liste-reseau img{
+    width: 40px;
+    margin: 10px;
+
+}
+.liste-reseau a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.liste-info li{
+    padding: 2px 0;
+}
+.liste-info a{
+    text-decoration: none;
+    color:white;
+}
+.liste-info a:hover{
+    color: rgb(3,3,3);
+}
